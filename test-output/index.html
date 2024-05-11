@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2317554\Downloads\casproject (3)\casproject\src\test\java\casproject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 3 failed,  14 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="captureUserInfo">captureUserInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="mousehover">mousehover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="validateItNews">validateItNews</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="awardInfo1">awardInfo1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="awardInfo1">awardInfo1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="awardInfo2">awardInfo2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="awardInfo2">awardInfo2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="awardInfo3">awardInfo3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="awardInfo3">awardInfo3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="compareMapOfHT">compareMapOfHT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="compareMapOfHT">compareMapOfHT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="countnews">countnews</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="countnews">countnews</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="exploreapp">exploreapp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="validateItAwards">validateItAwards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="validateItAwards">validateItAwards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="validateItNews">validateItNews</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="captureUserInfo">captureUserInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="exploreapp">exploreapp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="casproject.TestNgPage" class="method navigator-link" hash-for-method="mousehover">mousehover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">casproject.TestNgPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="captureUserInfo">
+                  </a> <!-- captureUserInfo -->
+                  <span class="method-name">captureUserInfo</span>
+                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9c33c0d055937e7658bdc5e7e56eee51, actions {actions=[org.openqa.selenium.interactions.Sequence@50d68830]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50725}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50725/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c33c0d055937e7658bdc5e7e56eee51
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+	at java.base/java.util.Map.forEach(Map.java:713)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+	at org.openqa.selenium.json.Json.toJson(Json.java:133)
+	at org.openqa.selenium.json.Json.toJson(Json.java:119)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at casproject.BeCognizant.clickUserinfo(BeCognizant.java:50)
+	at casproject.TestNgPage.captureUserInfo(TestNgPage.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+		at org.openqa.selenium.json.Json.toJson(Json.java:131)
+		... 39 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+	... 60 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;O365_MainLink_Me&apos;]&quot;}
+  (Session info: MicrosoftEdge=124.0.2478.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9c33c0d055937e7658bdc5e7e56eee51, findElement {using=xpath, value=//button[@id=&apos;O365_MainLink_Me&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50725}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50725/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c33c0d055937e7658bdc5e7e56eee51
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+	... 65 more
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mousehover">
+                  </a> <!-- mousehover -->
+                  <span class="method-name">mousehover</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;Corporate Functions&apos;]&quot;}
+  (Session info: MicrosoftEdge=124.0.2478.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9c33c0d055937e7658bdc5e7e56eee51, findElement {using=name, value=Corporate Functions}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50725}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50725/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c33c0d055937e7658bdc5e7e56eee51
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at casproject.BeCognizant.selectSecurityAndTechnology(BeCognizant.java:62)
+	at casproject.TestNgPage.mousehover(TestNgPage.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateItNews">
+                  </a> <!-- validateItNews -->
+                  <span class="method-name">validateItNews</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;S&amp;T Policy Hub&apos;]&quot;}
+  (Session info: chrome=121.0.6167.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc107a0644e029795bc6f4c047e792cb, findElement {using=xpath, value=//div[text()=&apos;S&amp;T Policy Hub&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50777/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc107a0644e029795bc6f4c047e792cb
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:461)
+	at casproject.GlobalIt.scroll1(GlobalIt.java:129)
+	at casproject.TestNgPage.validateItNews(TestNgPage.java:106)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">casproject.TestNgPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="awardInfo1">
+                  </a> <!-- awardInfo1 -->
+                  <span class="method-name">awardInfo1</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.awardInfo1() on instance casproject.TestNgPage@202b0582 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@202b0582
+casproject.TestNgPage.validateItAwards() on instance casproject.TestNgPage@202b0582
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@202b0582]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="awardInfo1">
+                  </a> <!-- awardInfo1 -->
+                  <span class="method-name">awardInfo1</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.awardInfo1() on instance casproject.TestNgPage@247310d0 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@247310d0
+casproject.TestNgPage.validateItAwards() on instance casproject.TestNgPage@247310d0
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@247310d0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="awardInfo2">
+                  </a> <!-- awardInfo2 -->
+                  <span class="method-name">awardInfo2</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.awardInfo2() on instance casproject.TestNgPage@202b0582 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@202b0582
+casproject.TestNgPage.validateItAwards() on instance casproject.TestNgPage@202b0582
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@202b0582]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="awardInfo2">
+                  </a> <!-- awardInfo2 -->
+                  <span class="method-name">awardInfo2</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.awardInfo2() on instance casproject.TestNgPage@247310d0 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@247310d0
+casproject.TestNgPage.validateItAwards() on instance casproject.TestNgPage@247310d0
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@247310d0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="awardInfo3">
+                  </a> <!-- awardInfo3 -->
+                  <span class="method-name">awardInfo3</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.awardInfo3() on instance casproject.TestNgPage@202b0582 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@202b0582
+casproject.TestNgPage.validateItAwards() on instance casproject.TestNgPage@202b0582
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@202b0582]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="awardInfo3">
+                  </a> <!-- awardInfo3 -->
+                  <span class="method-name">awardInfo3</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.awardInfo3() on instance casproject.TestNgPage@247310d0 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@247310d0
+casproject.TestNgPage.validateItAwards() on instance casproject.TestNgPage@247310d0
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@247310d0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="compareMapOfHT">
+                  </a> <!-- compareMapOfHT -->
+                  <span class="method-name">compareMapOfHT</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.compareMapOfHT() on instance casproject.TestNgPage@202b0582 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@202b0582
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@202b0582]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="compareMapOfHT">
+                  </a> <!-- compareMapOfHT -->
+                  <span class="method-name">compareMapOfHT</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.compareMapOfHT() on instance casproject.TestNgPage@247310d0 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@247310d0
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@247310d0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="countnews">
+                  </a> <!-- countnews -->
+                  <span class="method-name">countnews</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.countnews() on instance casproject.TestNgPage@202b0582 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@202b0582
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@202b0582]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="countnews">
+                  </a> <!-- countnews -->
+                  <span class="method-name">countnews</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.countnews() on instance casproject.TestNgPage@247310d0 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@247310d0
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@247310d0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exploreapp">
+                  </a> <!-- exploreapp -->
+                  <span class="method-name">exploreapp</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.exploreapp() on instance casproject.TestNgPage@202b0582 depends on not successfully finished methods 
+[casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@202b0582]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateItAwards">
+                  </a> <!-- validateItAwards -->
+                  <span class="method-name">validateItAwards</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.validateItAwards() on instance casproject.TestNgPage@202b0582 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@202b0582
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@202b0582]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateItAwards">
+                  </a> <!-- validateItAwards -->
+                  <span class="method-name">validateItAwards</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.validateItAwards() on instance casproject.TestNgPage@247310d0 depends on not successfully finished methods 
+[casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@247310d0
+casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@247310d0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateItNews">
+                  </a> <!-- validateItNews -->
+                  <span class="method-name">validateItNews</span>
+                  <div class="stack-trace">java.lang.Throwable: Method casproject.TestNgPage.validateItNews() on instance casproject.TestNgPage@202b0582 depends on not successfully finished methods 
+[casproject.TestNgPage.mousehover() on instance casproject.TestNgPage@202b0582]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">casproject.TestNgPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="captureUserInfo">
+                  </a> <!-- captureUserInfo -->
+                  <span class="method-name">captureUserInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exploreapp">
+                  </a> <!-- exploreapp -->
+                  <span class="method-name">exploreapp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mousehover">
+                  </a> <!-- mousehover -->
+                  <span class="method-name">mousehover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2317554\Downloads\casproject (3)\casproject\src\test\java\casproject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;casproject.TestNgPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;casproject.TestNgPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EdgeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'exploreapp')
+data.setCell(0, 2, 'casproject.TestNgPage')
+data.setCell(0, 3, 33072);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'captureUserInfo')
+data.setCell(1, 2, 'casproject.TestNgPage')
+data.setCell(1, 3, 24422);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateItNews')
+data.setCell(2, 2, 'casproject.TestNgPage')
+data.setCell(2, 3, 11024);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'captureUserInfo')
+data.setCell(3, 2, 'casproject.TestNgPage')
+data.setCell(3, 3, 10194);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'mousehover')
+data.setCell(4, 2, 'casproject.TestNgPage')
+data.setCell(4, 3, 10035);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'mousehover')
+data.setCell(5, 2, 'casproject.TestNgPage')
+data.setCell(5, 3, 6769);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'awardInfo3')
+data.setCell(6, 2, 'casproject.TestNgPage')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'awardInfo1')
+data.setCell(7, 2, 'casproject.TestNgPage')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'countnews')
+data.setCell(8, 2, 'casproject.TestNgPage')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'awardInfo1')
+data.setCell(9, 2, 'casproject.TestNgPage')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'compareMapOfHT')
+data.setCell(10, 2, 'casproject.TestNgPage')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateItAwards')
+data.setCell(11, 2, 'casproject.TestNgPage')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'exploreapp')
+data.setCell(12, 2, 'casproject.TestNgPage')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateItNews')
+data.setCell(13, 2, 'casproject.TestNgPage')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'awardInfo2')
+data.setCell(14, 2, 'casproject.TestNgPage')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'awardInfo2')
+data.setCell(15, 2, 'casproject.TestNgPage')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'compareMapOfHT')
+data.setCell(16, 2, 'casproject.TestNgPage')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'countnews')
+data.setCell(17, 2, 'casproject.TestNgPage')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateItAwards')
+data.setCell(18, 2, 'casproject.TestNgPage')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'awardInfo3')
+data.setCell(19, 2, 'casproject.TestNgPage')
+data.setCell(19, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">casproject.TestNgPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">captureUserInfo</span>
+                <span class="method-start">14047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mousehover</span>
+                <span class="method-start">24251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34324 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">34931 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">captureUserInfo</span>
+                <span class="method-start">47901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mousehover</span>
+                <span class="method-start">72325 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">exploreapp</span>
+                <span class="method-start">79099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateItNews</span>
+                <span class="method-start">112174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123212 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
